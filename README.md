@@ -2,7 +2,8 @@
 
 > **高级组 · 主题 1：金融经贸**  
 > 参赛方向：外贸市场情报智能体  
-> 一句话：把一次询盘，变成一份可执行的市场判断。
+> 一句话：把一次询盘，变成一份可执行的市场判断。  
+> 开源仓库：<https://github.com/chaonanluo45-web/tradelens>
 
 TradeLens 是一个面向中小外贸团队的市场情报工作台。输入产品品类、目标市场、目标价和本次目标，它会生成一份包含**机会评分、需求信号、准入合规、竞争渠道、风险与 90 天行动清单**的市场简报；同时可以把一封客户询盘拆成可跟进字段，识别低价、急单和信息缺口，并生成一版英文回复草稿。
 
@@ -223,7 +224,7 @@ tradelens/
 - 作品基本信息：见 [SUBMISSION.md](SUBMISSION.md)
 - 作品海报：[poster/TradeLens_poster_official.png](poster/TradeLens_poster_official.png)（1080 × 1525）
 - 项目介绍：[docs/TradeLens_项目介绍.pdf](docs/TradeLens_项目介绍.pdf)
-- 项目源码：当前仓库
+- 项目源码：<https://github.com/chaonanluo45-web/tradelens>
 - 本地运行地址：<http://127.0.0.1:8000>
 
 ## License
