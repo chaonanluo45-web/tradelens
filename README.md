@@ -11,8 +11,8 @@ TradeLens 是一个面向中小外贸团队的市场情报工作台。输入产�
 
 ## 项目介绍
 
-- [项目介绍 PDF](docs/TradeLens_项目介绍.pdf)（6 页，含封面、产品方案、演示案例、技术架构与评分维度）
-- [项目介绍 DOCX](docs/TradeLens_项目介绍.docx)（可编辑版）
+- [项目介绍 PDF](docs/TradeLens_Project_Intro.pdf)（6 页，含封面、产品方案、演示案例、技术架构与评分维度）
+- [项目介绍 DOCX](docs/TradeLens_Project_Intro.docx)（可编辑版）
 - [作品海报](poster/TradeLens_poster_official.png)（1080 × 1525，官方模板版式）
 
 ## 比赛信息
@@ -190,8 +190,8 @@ tradelens/
 ├── web/                         # 单页工作台
 ├── tests/                       # 13 个引擎/API 测试
 ├── docs/
-│   ├── TradeLens_项目介绍.pdf    # 6 页项目介绍
-│   ├── TradeLens_项目介绍.docx   # 可编辑版
+│   ├── TradeLens_Project_Intro.pdf    # 6 页项目介绍
+│   ├── TradeLens_Project_Intro.docx   # 可编辑版
 │   └── assets/                  # 文档配图
 ├── poster/
 │   ├── TradeLens_poster_official.png
@@ -223,7 +223,7 @@ tradelens/
 
 - 作品基本信息：见 [SUBMISSION.md](SUBMISSION.md)
 - 作品海报：[poster/TradeLens_poster_official.png](poster/TradeLens_poster_official.png)（1080 × 1525）
-- 项目介绍：[docs/TradeLens_项目介绍.pdf](docs/TradeLens_项目介绍.pdf)
+- 项目介绍：[docs/TradeLens_Project_Intro.pdf](docs/TradeLens_Project_Intro.pdf)
 - 项目源码：<https://github.com/chaonanluo45-web/tradelens>
 - 本地运行地址：<http://127.0.0.1:8000>
 
