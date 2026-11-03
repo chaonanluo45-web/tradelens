@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>TradeLens 外贸罗盘 · 官方模板海报</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  @page { size: 1080px 1525px; margin: 0; }
+  html, body { width: 1080px; height: 1525px; }
+  body {
+    font-family: "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    background: #061b45;
+    color: #fff;
+    overflow: hidden;
+  }
+  .poster {
+    position: relative; width: 1080px; height: 1525px; overflow: hidden;
+    background: url("official_template_1080.png") center / 100% 100% no-repeat;
+  }
+  .content { position: absolute; inset: 0; z-index: 2; }
+
+  .badge {
+    position: absolute; top: 202px; left: 78px;
+    display: inline-flex; align-items: center; gap: 9px;
+    font-size: 13px; letter-spacing: 2.1px; font-weight: 700; color: #baf8e9;
+    border: 1px solid rgba(94, 234, 212, .46);
+    background: rgba(5, 30, 61, .55); backdrop-filter: blur(3px);
+    padding: 7px 13px; border-radius: 4px;
+  }
+  .badge i { width: 6px; height: 6px; border-radius: 50%; background: #5eead4; box-shadow: 0 0 0 4px rgba(94,234,212,.10); }
+
+  h1 {
+    position: absolute; top: 247px; left: 74px;
+    line-height: .98; letter-spacing: -2px; font-weight: 800;
+    display: flex; align-items: baseline; gap: 20px;
+  }
+  h1 .latin {
+    font-family: "Segoe UI", "Arial", sans-serif; font-size: 86px; color: #fff;
+    letter-spacing: -4px; text-shadow: 0 4px 18px rgba(0, 20, 55, .25);
+  }
+  h1 .cn {
+    font-family: "Noto Serif SC", "Songti SC", serif; font-size: 62px;
+    color: #d9f99d; letter-spacing: 0; font-weight: 700;
+  }
+
+  .tagline {
+    position: absolute; top: 349px; left: 78px;
+    font-family: "Noto Serif SC", "Songti SC", serif;
+    font-size: 38px; line-height: 1.3; font-weight: 600; color: #fff;
+    letter-spacing: .5px;
+  }
+  .tagline em { font-style: normal; color: #d9f99d; }
+
+  .subline {
+    position: absolute; top: 405px; left: 79px;
+    color: #a9c0da; font-size: 17px; letter-spacing: .2px; line-height: 1.5;
+  }
+  .subline strong { color: #dfeefc; font-weight: 600; }
+
+  .stats { position: absolute; top: 455px; left: 78px; display: flex; gap: 30px; }
+  .stat { display: flex; align-items: baseline; gap: 8px; }
+  .stat strong { font-family: "Noto Serif SC", serif; font-size: 29px; color: #d9f99d; font-weight: 700; line-height: 1; }
+  .stat span { font-size: 12px; color: #8fa9c4; letter-spacing: .5px; }
+  .stat + .stat { padding-left: 30px; border-left: 1px solid rgba(148, 190, 224, .22); }
+
+  .shot {
+    position: absolute; top: 518px; left: 130px; width: 820px;
+    padding: 7px; border-radius: 13px;
+    background: linear-gradient(145deg, rgba(94, 234, 212, .66), rgba(48, 108, 170, .30) 52%, rgba(94, 234, 212, .18));
+    box-shadow: 0 28px 55px rgba(0, 8, 30, .55), 0 0 0 1px rgba(255,255,255,.08);
+  }
+  .browser {
+    height: 26px; display: flex; align-items: center; gap: 7px; padding: 0 12px;
+    background: #071b38; border-radius: 8px 8px 0 0; border-bottom: 1px solid rgba(255,255,255,.08);
+  }
+  .browser .dot { width: 6px; height: 6px; border-radius: 50%; background: #49627b; }
+  .browser .dot:nth-child(1) { background: #ee8d7d; }
+  .browser .dot:nth-child(2) { background: #e4c26b; }
+  .browser .dot:nth-child(3) { background: #6ccf9e; }
+  .browser .url {
+    margin-left: 9px; flex: 1; height: 14px; border-radius: 3px;
+    background: rgba(255,255,255,.06); color: #7793ae;
+    font-family: "Cascadia Code", Consolas, monospace; font-size: 7px; line-height: 14px;
+    padding-left: 8px; letter-spacing: .2px;
+  }
+  .shot img { display: block; width: 100%; height: auto; border-radius: 0 0 7px 7px; }
+
+  .strip {
+    position: absolute; top: 1112px; left: 130px; width: 820px;
+    display: flex; justify-content: space-between; align-items: center;
+    color: #bed0e2; font-size: 13px; letter-spacing: .4px;
+  }
+  .strip span { display: inline-flex; align-items: center; gap: 7px; }
+  .strip i {
+    width: 5px; height: 5px; border-radius: 50%; background: #5eead4;
+    box-shadow: 0 0 0 4px rgba(94,234,212,.10);
+  }
+
+  .note {
+    position: absolute; top: 1144px; left: 130px; width: 820px;
+    color: #6886a4; font-size: 10px; letter-spacing: .5px;
+  }
+</style>
+</head>
+<body>
+<div class="poster">
+  <div class="content">
+    <div class="badge"><i></i> 高级组 · 主题 1 / 金融经贸</div>
+
+    <h1><span class="latin">TradeLens</span><span class="cn">外贸罗盘</span></h1>
+
+    <div class="tagline">把一次询盘，<em>变成一份市场判断。</em></div>
+    <div class="subline"><strong>外贸市场情报智能体</strong> · 输入产品、市场与目标价，生成机会、合规与 90 天行动。</div>
+
+    <div class="stats">
+      <div class="stat"><strong>5</strong><span>目标市场</span></div>
+      <div class="stat"><strong>5</strong><span>外贸品类</span></div>
+      <div class="stat"><strong>90</strong><span>天行动清单</span></div>
+    </div>
+
+    <div class="shot">
+      <div class="browser">
+        <i class="dot"></i><i class="dot"></i><i class="dot"></i>
+        <div class="url">127.0.0.1:8000 &nbsp;/&nbsp; TradeLens · market brief</div>
+      </div>
+      <img src="../screenshots/poster_app_wide.png" alt="TradeLens 市场简报界面">
+    </div>
+
+    <div class="strip">
+      <span><i></i> 可解释评分</span>
+      <span><i></i> 询盘风险识别</span>
+      <span><i></i> 零外部依赖</span>
+    </div>
+    <div class="note">演示数据为离线示例，不构成实时贸易或投资建议 · 作品源码与说明见大赛提报系统</div>
+  </div>
+</div>
+</body>
+</html>
