@@ -1,6 +1,6 @@
 # 作品提交文案与检查清单
 
-> 直接复制下列字段到提报系统；带 `TODO` 的两项必须由你补上。
+> 直接复制下列字段到提报系统；只剩演示视频一项需要补链接。
 
 ## 一、作品基本信息
 
@@ -10,7 +10,7 @@
 | 主题 | **主题 1 · 金融经贸** |
 | 作品形态 | Web 应用 / 外贸市场情报智能体 |
 | 一句话介绍 | 把一次询盘，变成一份可执行的市场判断。 |
-| 项目源码 | `TODO：https://gitee.com/<你的账号>/tradelens` |
+| 项目源码 | https://github.com/chaonanluo45-web/tradelens |
 | 演示视频 | `TODO：B 站链接（≤3 分钟）` |
 | 作品体验链接 | 可选；如无公网部署可留空 |
 
@@ -29,27 +29,18 @@ TradeLens 外贸罗盘是一款外贸市场情报智能体。输入产品、目�
 3. **询盘风险识别**：把“目标价低于主流带”“21 天交期偏紧”“认证信息缺失”转成明确的跟进动作，而不是只做翻译。
 4. **现场稳定**：Python 标准库 + 原生前端，零外部依赖，不需要 API Key，断网可演示。
 
-## 五、源码仓库上传
+## 五、源码仓库
 
-### 推荐方式：Gitee 网页上传
+已上传至 GitHub 公开仓库：
 
-1. 登录 Gitee，新建公开仓库，名称建议 `tradelens`；
-2. 把本项目根目录下的内容上传到仓库根目录，确保打开仓库即可看到 `README.md`；
-3. 不要上传 `.deps/`、`.browsers/`、`__pycache__/`、`.venv/`；
-4. 仓库设置保持 **公开**，复制仓库地址，替换上面的 `TODO`；
-5. 用无痕窗口打开仓库链接，确认未登录也能看到 README 和源码。
+**https://github.com/chaonanluo45-web/tradelens**
 
-### 如果本机有 Git
+- 仓库根目录包含 `README.md` 项目介绍；
+- 已包含源码、测试、项目介绍 PDF/DOCX、作品海报和界面截图；
+- 仓库为 Public，未登录也可访问；
+- 未上传 `.deps/`、`.browsers/`、`__pycache__/`、`.venv/` 等本地缓存。
 
-```bash
-cd tradelens
-git init
-git add .
-git commit -m "feat: TradeLens hackathon MVP"
-git branch -M main
-git remote add origin https://gitee.com/<你的账号>/tradelens.git
-git push -u origin main
-```
+如需重新部署到 Gitee，可把本目录直接导入 Gitee，保持 `README.md` 在仓库根目录即可。
 
 ## 六、作品海报
 
